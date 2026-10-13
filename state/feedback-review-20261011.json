@@ -1,0 +1,17 @@
+{
+  "reviews": [
+    {
+      "id": "c96bc943-312a-4fc3-a1fc-dfe9d7126352",
+      "category": "bug",
+      "severity": "medium",
+      "summary": "V3.9.10 iPhone standalone 使用者回報首頁新增任務文字超出按鈕。診斷430×637與正式artifact一致；未提供步驟／截圖，尚未重現，亦未確認為FAB或空清單入口。",
+      "recommendation": "依私密feedback-report-20261011.md優先在430×637 PWA測試空／非空清單、主題及字級，定位computed CSS；必要局部修復後驗收文字與新增任務流程。本次不改程式或D1。",
+      "evidence": [
+        "正式V3.9.10 production artifact診斷一致",
+        "origin/main:index.html:170 #btn-add-task.fab",
+        "origin/main:src/ui.js:3045 空清單新增任務入口"
+      ],
+      "reportPath": "C:/Users/User/OneDrive/questnote-pwa/.dev-backups/questnote-watch/feedback-report-20261011.md"
+    }
+  ]
+}

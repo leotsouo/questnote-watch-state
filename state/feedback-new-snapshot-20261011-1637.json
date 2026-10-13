@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-11T08:37:02.425Z",
+  "release": {
+    "deployedCommit": "d53b7aaecc85d8c79681e6b50f696d4322a7b1f3",
+    "artifactId": "4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671",
+    "sourceCommit": "8403a3062f6af25548ca7f461157eee335ec5e9a",
+    "version": "3.9.10"
+  },
+  "reports": [
+    {
+      "id": "109b0dfb-1283-49cc-8c11-4f7feecdfacd",
+      "submitted_at": "2026-09-26T21:04:03.728Z",
+      "type": "bug",
+      "title": "測試回報",
+      "description": "測試回報功能",
+      "steps": "",
+      "expected": "",
+      "status": "new"
+    },
+    {
+      "id": "a3b93f57-d7a6-41f9-a704-39f9803d80dc",
+      "submitted_at": "2026-10-05T00:48:36.558Z",
+      "type": "suggestion",
+      "title": "圖鑑依照卡片等級分類",
+      "description": "以前有卡片等級分類 我想看UR點一下就全部都是UR 的搜尋結果\n我想要把這個功能拿回來\n現在的介面很好 但是可以幫我把這個功能做回來嗎",
+      "steps": "",
+      "expected": "",
+      "status": "new"
+    },
+    {
+      "id": "c96bc943-312a-4fc3-a1fc-dfe9d7126352",
+      "submitted_at": "2026-10-11T02:14:57.022Z",
+      "type": "bug",
+      "title": "首頁新增任務的按鈕跟「新增任務」的字樣破圖",
+      "description": "新增按鈕的字超出他的按鈕大小",
+      "steps": "",
+      "expected": "",
+      "status": "new"
+    }
+  ]
+}

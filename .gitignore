@@ -1,0 +1,5 @@
+# 巡查工具執行中的暫存，不進版本控制
+state/run.lock
+state/index-main
+state/index-gh-pages
+state/*.tmp

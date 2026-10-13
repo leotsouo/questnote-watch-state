@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-11T08:37:31.537Z",
+  "reports": [
+    {
+      "id": "7d5d2f78-e79f-4d9e-bc5a-611bdab322d9",
+      "submitted_at": "2026-09-30T19:02:26.642Z",
+      "type": "bug",
+      "title": "Bug我用蘋果手機從手機右側邊緣往左邊滑時竟然出現畫面跳轉",
+      "description": "不應該讓使用者出發手機內建的上一頁或是下一頁功能\n應該是這個功能發生問題",
+      "steps": "1.在圖鑑頁面試著滑動類別的時候發生",
+      "expected": "預期成功滑動類別 選擇到想要的系列",
+      "status": "investigating",
+      "resolution_note": "V3.4.33 candidate: original series chips retained, horizontal touch scrolling restored and filter edge-start gestures handled. No extra series picker. Awaiting user/device acceptance; production unchanged."
+    },
+    {
+      "id": "2f703e1f-ee1c-498e-b44c-aae5771b036c",
+      "submitted_at": "2026-09-30T19:04:17.752Z",
+      "type": "bug",
+      "title": "圖鑑bug",
+      "description": "圖鑑的類別那邊有問題我想要換花亭的系列，所以我試著重組邊往右邊滑去找那個對應的類別，我可以點擊之後查看特定系列的角色嘛但是完全動不了應該是bug",
+      "steps": "第一部我先點了圖鑑到了圖鑑頁面之後就試著滑動類別，但文風不動",
+      "expected": "預期成功能滑動我的類別，然後選到特定系列的類別之後可以看特定的角色",
+      "status": "investigating",
+      "resolution_note": "V3.4.33 candidate: original series chips retained, horizontal touch scrolling restored and filter edge-start gestures handled. No extra series picker. Awaiting user/device acceptance; production unchanged."
+    }
+  ]
+}

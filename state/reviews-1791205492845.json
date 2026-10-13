@@ -1,0 +1,23 @@
+{
+  "reviews": [
+    {
+      "id": "109b0dfb-1283-49cc-8c11-4f7feecdfacd",
+      "category": "test",
+      "severity": "low",
+      "summary": "內容明確表示測試回報功能，無實際故障、重現步驟或預期結果；不視為已確認 bug。",
+      "recommendation": "保留回報，不需要修復或公告，不更新 D1 狀態。"
+    },
+    {
+      "id": "a3b93f57-d7a6-41f9-a704-39f9803d80dc",
+      "category": "suggestion",
+      "severity": "medium",
+      "summary": "使用者希望可一鍵列出 UR 卡片。正式 V3.8.1 對應來源已有 N/R/SR/SSR/UR 篩選按鈕、點擊 handler 與稀有度過濾邏輯，因此目前是介面可發現性或裝置顯示問題的候選，尚未重現。",
+      "recommendation": "下一次 UI 改善先檢查手機圖鑑篩選列是否被折疊、水平捲動隱藏或不夠明顯，再依實機證據決定是否恢復更顯眼的稀有度入口；此巡查不修改程式、不先發補償。",
+      "evidence": [
+        "index.html: collection-filters 包含 data-filter=UR",
+        "src/ui.js: 篩選點擊 handler 更新 collectionFilter",
+        "src/ui.js: renderCollection 依 p.rarity 過濾"
+      ]
+    }
+  ]
+}
