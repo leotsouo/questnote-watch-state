@@ -1,0 +1,13 @@
+{
+  "checkedAt": "2026-10-13T14:55:00Z",
+  "purpose": "QuestNote patrol migration test: cloud session connectivity",
+  "site": {
+    "https://leotsouo.github.io/": 200,
+    "https://leotsouo.github.io/questnote-pwa/": 200,
+    "https://leotsouo.github.io/questnote-pwa/service-worker.js": 200,
+    "https://leotsouo.github.io/questnote-pwa/data/global-mailbox.json": 200
+  },
+  "deployedAppVersion": "3.9.11",
+  "sourceAppVersion": "3.9.11",
+  "questnotePwa": { "main": "d918497", "gh-pages": "5a7a83f" }
+}
