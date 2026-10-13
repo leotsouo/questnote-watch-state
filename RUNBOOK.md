@@ -38,6 +38,6 @@
 `run.lock` 不進版本控制。若發現殘留，先確認沒有其他巡查在跑（看最近一次 commit 時間）再移除。`state.json`、`decision-*.json`、`reviews-*.json`、`failures.log` 保留，不自動清理。
 
 ## 切換檢查表
-- [ ] 雲端手動 scan 一次（只讀），預期 `newReports = 3`（目前 D1 有 3 筆 status=new）、`pendingDeployments = 0`、`incompleteDecisions = []`。
+- [ ] 雲端手動 scan 一次（只讀），預期 `newReports = 0`（D1 目前 3 筆 status=new，ID 都已在 state.json 的 reviewedFeedback 裡）、`pendingDeployments = 0`、`incompleteDecisions = []`。
 - [ ] 結果與舊電腦上最後一次 scan.json 一致後，再建立雲端排程。
 - [ ] 排程建好後，使用者在 Codex 停用舊排程 `questnote`，兩邊不可同時執行。
