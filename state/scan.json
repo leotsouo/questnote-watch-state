@@ -1,14 +1,24 @@
 {
-  "checkedAt": "2026-10-14T19:54:42.608Z",
+  "checkedAt": "2026-10-15T19:56:24.602Z",
   "release": {
-    "deployedCommit": "5a7a83f5983c5eef8e86be71931cd05eb5fbe56e",
-    "artifactId": "0ce07b33df5ba32f8f0d2ad682146cbaeda948c8ca32f240070be970c43454fd",
-    "sourceCommit": "d918497f44ef020324254d0790be56341d228572",
-    "version": "3.9.11"
+    "deployedCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
+    "artifactId": "72951e912dcfc744575837b3d1dda80856d74090af30e984ac0b126073690db1",
+    "sourceCommit": "4be32e1cebe3e0e3ad4977be144c7b9ae1ff39e9",
+    "version": "3.10.2"
   },
-  "pagesCommit": "5a7a83f5983c5eef8e86be71931cd05eb5fbe56e",
-  "mainCommit": "d918497f44ef020324254d0790be56341d228572",
+  "pagesCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
+  "mainCommit": "4be32e1cebe3e0e3ad4977be144c7b9ae1ff39e9",
   "deployments": [
+    {
+      "deployedCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
+      "createdAt": "2026-10-15T04:33:12Z",
+      "success": true
+    },
+    {
+      "deployedCommit": "ed0d98e362047a295b9623e6248f91ecf8a4b86a",
+      "createdAt": "2026-10-15T04:18:52Z",
+      "success": true
+    },
     {
       "deployedCommit": "5a7a83f5983c5eef8e86be71931cd05eb5fbe56e",
       "createdAt": "2026-10-11T09:14:15Z",
@@ -97,16 +107,6 @@
     {
       "deployedCommit": "2aaedb399756f97c1ff5daf3ad7dea683539d11f",
       "createdAt": "2026-10-07T20:31:14Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "bc5f30f99653286b463ad4a16666fc7c667a4a25",
-      "createdAt": "2026-10-07T20:06:22Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "407ab807eaacff900a79b14633f0a201987a362d",
-      "createdAt": "2026-10-07T19:52:54Z",
       "success": true
     }
   ],
@@ -1256,7 +1256,22 @@
       }
     ]
   },
-  "pending": [],
+  "pending": [
+    {
+      "deployedCommit": "ed0d98e362047a295b9623e6248f91ecf8a4b86a",
+      "createdAt": "2026-10-15T04:18:52Z",
+      "success": true,
+      "artifactId": "6a1fc3078ec7a65fd2a6fb9fa8c8ee43294c5c6fdfaf51e66ca4696c778309d1",
+      "sourceCommit": "5526319e56207538bbc9966f9abdf1a3ad9967b5"
+    },
+    {
+      "deployedCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
+      "createdAt": "2026-10-15T04:33:12Z",
+      "success": true,
+      "artifactId": "72951e912dcfc744575837b3d1dda80856d74090af30e984ac0b126073690db1",
+      "sourceCommit": "4be32e1cebe3e0e3ad4977be144c7b9ae1ff39e9"
+    }
+  ],
   "reports": [
     {
       "cursor": 2,
@@ -1299,5 +1314,6 @@
     }
   ],
   "newReports": [],
-  "incompleteDecisions": []
+  "incompleteDecisions": [],
+  "sourceDiff": "4be32e1 Merge pull request #107 from leotsouo/dev\nfb08fc4 V3.10.2: bump version and cache name for the detail image viewer fix\ndd98ac0 Open the full-size image viewer from the pet detail hero image\n41fa0c0 Record the V3.10.1 production release in final-integration.md\n11c84aa Rewrite CRLF working copies of LF files before assembling an artifact\n5526319 Merge pull request #106 from leotsouo/dev\n40873e9 V3.10.1: bump version and cache name for the ui.js view modules\ncb24098 Describe the src/ui view modules and their connect pattern in CLAUDE.md\n64ec20e Extract the shared modal host into src/ui/modalHost.js\n3b1d934 Extract the home task list into src/ui/taskListView.js\n88233be Extract the task form from ui.js into src/ui/taskFormView.js\n27b6738 Extract the home companion card into src/ui/companionView.js\nd2825df Extract the daily blessing and quest panel into src/ui/dailyBlessingView.js\nc2f205a Extract the gacha view from ui.js into src/ui/gachaView.js\n78c23aa Extract the collection view from ui.js into src/ui/collectionView.js\ncbf4d97 Extract the workshop view from ui.js into src/ui/workshopView.js\nad93166 Extract the habits view from ui.js into src/ui/habitsView.js\n5de6d5d Extract the expedition view from ui.js into src/ui/expeditionView.js\n04fd2f7 Extract the settings view from ui.js into src/ui/settingsView.js\nbe627ed Read every UI source part in the source-level flow tests\n86be7dd Extract the achievements view from ui.js into src/ui/achievementsView.js\ne134e35 Extract the global mailbox from ui.js into src/ui/mailboxView.js\n874f1e9 Extract the adventure handbook view from ui.js into src/ui/handbookView.js\n5d119ca CI: drop the encounter-production step that npm test already runs\n3d048b3 Remove one-off pool review and release scripts whose inputs are gone\nb73e19d Slim the repository: remove closed pool drafts, source art and report evidence\n3c5ad97 Describe the split stylesheet and UI module layout in CLAUDE.md\n8c056a1 V3.10.0: bump version and cache name for the split stylesheet and UI modules\nd35cb8f Remove the inactive src/_archive modules\na612364 Extract the daily wheel view from ui.js into src/ui/dailyWheelView.js\nb0435b6 Split the 18,290-line styles.css into 13 ordered parts under src/styles/\na7392e3 Run each npm test file exactly once in a single node --test invocation\n52e17f6 Add one-time slim-repo script and stop a test from reading pool drafts\n227d9b3 Unify the workflow rules in CLAUDE.md: one workspace, dev, one PR, one preview\n903a0ca Retire worktree lifecycle and weekly disk maintenance tooling\nb617b07 Add serve, preview:deploy and release:production scripts\nfa9c0a0 Add CLAUDE.md pointing Claude Code at the shared AGENTS.md rules\n"
 }
