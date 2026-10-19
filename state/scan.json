@@ -1,14 +1,39 @@
 {
-  "checkedAt": "2026-10-18T19:56:21.648Z",
+  "checkedAt": "2026-10-19T19:56:57.669Z",
   "release": {
-    "deployedCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
-    "artifactId": "72951e912dcfc744575837b3d1dda80856d74090af30e984ac0b126073690db1",
-    "sourceCommit": "4be32e1cebe3e0e3ad4977be144c7b9ae1ff39e9",
-    "version": "3.10.2"
+    "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
+    "artifactId": "1c98d04cae957f683d64772a199bddc44448910c1cc801b0d65456926714d7cb",
+    "sourceCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7",
+    "version": "3.12.1"
   },
-  "pagesCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
-  "mainCommit": "4be32e1cebe3e0e3ad4977be144c7b9ae1ff39e9",
+  "pagesCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
+  "mainCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7",
   "deployments": [
+    {
+      "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
+      "createdAt": "2026-10-19T19:51:28Z",
+      "success": true
+    },
+    {
+      "deployedCommit": "d50b34bc09defef4c98287d3285c9add4d37a957",
+      "createdAt": "2026-10-19T15:09:23Z",
+      "success": true
+    },
+    {
+      "deployedCommit": "da905a3b1f8d97b752043350214915172c41a740",
+      "createdAt": "2026-10-19T11:07:09Z",
+      "success": true
+    },
+    {
+      "deployedCommit": "23941a474409ca7853babc8e6e345bc7810e7995",
+      "createdAt": "2026-10-19T10:29:43Z",
+      "success": true
+    },
+    {
+      "deployedCommit": "9ef2b0a85ef393a0c770cabd57d1defaf3d40693",
+      "createdAt": "2026-10-19T10:13:26Z",
+      "success": true
+    },
     {
       "deployedCommit": "db206fe00f648ef600926e8da964895e0baf7e7c",
       "createdAt": "2026-10-15T04:33:12Z",
@@ -82,31 +107,6 @@
     {
       "deployedCommit": "d8ce527a93f7f457f01e248eeeb2d2f806eee7b6",
       "createdAt": "2026-10-08T15:53:13Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "606c347120d26d7240f24fe69a7369f77a242707",
-      "createdAt": "2026-10-08T14:00:35Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "ce35b1f859b2b9ed5de5bd05c01b06651499c7ab",
-      "createdAt": "2026-10-08T09:53:09Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "76cefea20bd5de44da225cc24fb147a20ae18db8",
-      "createdAt": "2026-10-08T09:46:43Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "dfcfd8b0653edba36f83b10c5d86980970ca9990",
-      "createdAt": "2026-10-07T20:40:58Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "2aaedb399756f97c1ff5daf3ad7dea683539d11f",
-      "createdAt": "2026-10-07T20:31:14Z",
       "success": true
     }
   ],
@@ -1256,7 +1256,43 @@
       }
     ]
   },
-  "pending": [],
+  "pending": [
+    {
+      "deployedCommit": "9ef2b0a85ef393a0c770cabd57d1defaf3d40693",
+      "createdAt": "2026-10-19T10:13:26Z",
+      "success": true,
+      "artifactId": "152911daa7a1e7a73bc280e9fbdfa2ca439638b898e06b48e02ab6b22113bd55",
+      "sourceCommit": "91b0490919cd7baf685c3414d4673575baa078bb"
+    },
+    {
+      "deployedCommit": "23941a474409ca7853babc8e6e345bc7810e7995",
+      "createdAt": "2026-10-19T10:29:43Z",
+      "success": true,
+      "artifactId": "f9e22d924da7df9cb36fe1de3d41af549038cc710f29ce81b161ec8ba2f87f26",
+      "sourceCommit": "5d080a68b55344beb2461f5edad548bb469fc475"
+    },
+    {
+      "deployedCommit": "da905a3b1f8d97b752043350214915172c41a740",
+      "createdAt": "2026-10-19T11:07:09Z",
+      "success": true,
+      "artifactId": "d5651a092b551f4c9be964169ee6687b3e0fbeeb333ed6189bc19497600f3349",
+      "sourceCommit": "ae1b40fbe384779a7f00d39116672fcee261eafb"
+    },
+    {
+      "deployedCommit": "d50b34bc09defef4c98287d3285c9add4d37a957",
+      "createdAt": "2026-10-19T15:09:23Z",
+      "success": true,
+      "artifactId": "a718c535da22ea0b5a640b612727c882d3fe6728868273f50c7adc8449ecc865",
+      "sourceCommit": "bbfc7afe0adee29b273183dc28b1518ca3266ba0"
+    },
+    {
+      "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
+      "createdAt": "2026-10-19T19:51:28Z",
+      "success": true,
+      "artifactId": "1c98d04cae957f683d64772a199bddc44448910c1cc801b0d65456926714d7cb",
+      "sourceCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7"
+    }
+  ],
   "reports": [
     {
       "cursor": 2,
@@ -1299,5 +1335,6 @@
     }
   ],
   "newReports": [],
-  "incompleteDecisions": []
+  "incompleteDecisions": [],
+  "sourceDiff": "906cdde Merge pull request #112 from leotsouo/dev\n8a0f036 V3.12.1: fix the one-click reward claim that failed since the ui.js split\n4c18843 Record the V3.12.0 (PR #111) production release in final-integration.md\nafd2fe2 Record each release by its PR so a tools-only release is not skipped\nbbfc7af Merge pull request #111 from leotsouo/dev\nd66b3a7 Version the review page script so a redeploy is not hidden by the browser cache\nc6b0adc Warn when an old Service Worker serves the animation review page\neb72a89 Remove the one-off per-pool authoring and review scripts\n59ad9c1 Split the card-pool SOP into a one-page runbook and a spec\n9e4b122 Show the release artifact and theme on the animation review page\naa1b57f Add a generic card-pool animation review page and card-pool review-page\n2a5a261 Add generic card-pool author, Codex image handoff and approve-all commands\nbb840c9 Record the V3.12.0 production release in final-integration.md\nae1b40f Merge pull request #110 from leotsouo/dev\n1604d6b V3.12.0: one-page add task and a hidden game layer in senior mode\n06ff12d Fix the flaky unknown-commit case in the release wrap-up test\nb75d9d6 Record the V3.11.0 production release in final-integration.md\n5d080a6 Merge pull request #109 from leotsouo/dev\ne890343 V3.11.0: add the weekly review page and the Monday home card\n64dd537 Add the weekly review service\ndafdd71 Record the V3.10.3 production release in final-integration.md\n91b0490 Merge pull request #108 from leotsouo/dev\ne44e3b5 Make the production release resumable and wrap itself up\nf7226fb Add release wrap-up helpers and tests\nd5fd498 Require dev to be pushed before updating the preview site\n3b5f325 Make the App health check pass on release builds for the right reasons\n0b5f2ac V3.10.3: run the App health check from Settings in preview and source builds\ne9001dd Update the App health check's stale expectations to the current code\n09b16ea Run the three companion tests in npm test and update their stale counts\ne082d81 Record the V3.10.2 production release in final-integration.md\n"
 }
