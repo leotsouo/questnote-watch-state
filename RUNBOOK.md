@@ -21,6 +21,7 @@
 4. 執行（`gh` 要用 `env -u GH_TOKEN`，公開倉庫的 deployments 不需要授權）：
    `env -u GH_TOKEN QUESTNOTE_WATCH_STATE=... QUESTNOTE_FEEDBACK_FILE=... node --use-system-ca scripts/questnote-watch.mjs scan`
 5. 依規格處理 `review` / `decide` / `publish`（這三個步驟會改正式站，見下方「授權」）。
+   - **使用者指定補償：** scan 之後，對 `state/grant-requests/*.json` 中還沒有對應 `state/decision-<eventId>.json` 的每份請求，執行 `node --use-system-ca scripts/questnote-watch.mjs grant <請求檔>`，成功後 `publish <eventId>`。請求檔只由使用者本人或替使用者轉寫原話的本機 Claude 放入（含 `authorization.phrase` 原話），不是回報內容；規格見工具分支 `docs/questnote-watch.md`「使用者指定補償（grant）」。grant 被拒就保存 failures.log 並通知，不要改寫請求繞過檢查。
 6. 結束時把 `state/` 的變更 commit 並 push 回本倉庫（commit 訊息寫日期與結果，如 `scan 2026-10-14: new=0 pending=0`）。**無論有無新事項都要保存狀態**；若執行中途失敗，也要保存 `failures.log` 再通知。
 
 ## 授權（沿用原設定，範圍不變）
