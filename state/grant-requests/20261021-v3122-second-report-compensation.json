@@ -1,0 +1,29 @@
+{
+  "eventId": "20261021-v3122-second-report-compensation",
+  "reason": "V3.12.1 發布後使用者再次回報「一鍵領取」錯誤（裝置仍在舊快取），全面檢查另外找到確認視窗連點會重複執行（如刪除兩次）等問題，V3.12.2 已修正並發布。使用者明確要求再補償一次，數量交由本機 Claude 決定：星塵 1000、冒險能量 5。這份補償已涵蓋 V3.12.2，部署決策不需要再另附獎勵。",
+  "authorization": {
+    "phrase": "這次更新沒更新好又讓使用者回報一次，感覺還要再補償一次，你安排吧，弄好之後可以發布",
+    "grantedBy": "leo（本機 Claude Code 依使用者原話轉寫）",
+    "requestedAt": "2026-10-20T18:01:16Z"
+  },
+  "messages": [
+    {
+      "id": "2026-10-v3122-second-report-compensation-01",
+      "type": "compensation",
+      "title": "再次回報補償｜星塵 1,000＋冒險能量 5",
+      "body": "親愛的旅人：\n\n上次更新後，仍有旅人遇到「一鍵領取」跳出錯誤，讓你又回報了一次，非常抱歉。\n\nV3.12.2 這次把整個 App 檢查了一遍：修正確認視窗連點會重複執行的問題，並在「更多 → 設定」加上「最近錯誤」紀錄，之後回報問題會更容易找到原因。\n\n如果還看到舊版本，請關閉所有 QuestNote 視窗後重新開啟，就會更新。\n\n請收下這份補償：星塵 1,000（剛好一次十連）與冒險能量 5。",
+      "publishedAt": "2026-10-21T12:00:00+08:00",
+      "expiresAt": "2026-11-30T23:59:59+08:00",
+      "priority": "high",
+      "enabled": true,
+      "minAppVersion": "3.12.2",
+      "maxAppVersion": null,
+      "icon": "🎁",
+      "reward": {
+        "stardust": 1000,
+        "adventureEnergy": 5
+      },
+      "action": null
+    }
+  ]
+}
