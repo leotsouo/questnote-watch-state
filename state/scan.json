@@ -1,14 +1,19 @@
 {
-  "checkedAt": "2026-10-19T19:56:57.669Z",
+  "checkedAt": "2026-10-20T03:24:02.803Z",
   "release": {
-    "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
+    "deployedCommit": "cb7a13037676ae423b6616c3a607ff6c72f64216",
     "artifactId": "1c98d04cae957f683d64772a199bddc44448910c1cc801b0d65456926714d7cb",
     "sourceCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7",
     "version": "3.12.1"
   },
-  "pagesCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
-  "mainCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7",
+  "pagesCommit": "cb7a13037676ae423b6616c3a607ff6c72f64216",
+  "mainCommit": "ec191aa56e2e73b0cf1ca208c8b25d7675550a7c",
   "deployments": [
+    {
+      "deployedCommit": "cb7a13037676ae423b6616c3a607ff6c72f64216",
+      "createdAt": "2026-10-19T19:59:17Z",
+      "success": true
+    },
     {
       "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
       "createdAt": "2026-10-19T19:51:28Z",
@@ -103,16 +108,11 @@
       "deployedCommit": "83da938f1c8a6bbe388b211e15c76b96156fa089",
       "createdAt": "2026-10-08T20:06:20Z",
       "success": true
-    },
-    {
-      "deployedCommit": "d8ce527a93f7f457f01e248eeeb2d2f806eee7b6",
-      "createdAt": "2026-10-08T15:53:13Z",
-      "success": true
     }
   ],
   "source": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-10T19:58:15.974Z",
+    "generatedAt": "2026-10-19T19:56:57.669Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -488,13 +488,32 @@
           "type": "view",
           "view": "gacha",
           "label": "查看每日相遇與系列"
+        }
+      },
+      {
+        "id": "2026-10-v3121-claim-all-fix-weekly-review",
+        "type": "update",
+        "title": "V3.12.1 更新｜一鍵領取修復與每週回顧",
+        "body": "親愛的旅人：\n\n這幾天的更新整理如下。\n\n【一鍵領取修復】\nV3.10.1 之後，各處的「一鍵領取」（祝福、任務、信箱、收藏、探險）可能因錯誤而無法使用，現已修復。若之前一鍵領取沒有反應，更新後請再試一次；也可以逐項手動領取。你的存檔與已領取的紀錄不受影響。\n\n【每週回顧】\n「更多 → 每週回顧」可查看本週或上週完成了幾項任務、習慣做了幾天與打卡次數。每週一，首頁會出現上週回顧的小卡，打開或關閉後不再顯示。\n\n【長輩模式更簡單】\n長輩模式的新增任務改為單頁：只要填寫要做的事與日期，時間、分類、重要程度與子任務收在「更多設定」。長輩模式也會隱藏召喚、圖鑑、探險等遊戲畫面與獎勵數字，讓介面專注在任務本身；一般模式不受影響。\n\n本信沒有附帶獎勵；先前尚未過期的贈禮仍可依原信期限領取。若遇到問題，歡迎透過「更多 → 意見與問題回報」告訴我們。\n\n若尚未看到新版，請保持連線，關閉其他 QuestNote 分頁與主畫面 App 後重新開啟；看到更新提示時按「更新並重新載入」。請勿清除網站資料，以免失去本機紀錄。\n\nQuestNote 開發團隊",
+        "publishedAt": "2026-10-19T19:57:39.000Z",
+        "expiresAt": null,
+        "priority": "normal",
+        "enabled": true,
+        "minAppVersion": "3.12.1",
+        "maxAppVersion": null,
+        "icon": "📮",
+        "reward": null,
+        "action": {
+          "type": "view",
+          "view": "tasks",
+          "label": "回到任務"
         }
       }
     ]
   },
   "production": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-10T19:58:15.974Z",
+    "generatedAt": "2026-10-19T19:56:57.669Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -870,13 +889,32 @@
           "type": "view",
           "view": "gacha",
           "label": "查看每日相遇與系列"
+        }
+      },
+      {
+        "id": "2026-10-v3121-claim-all-fix-weekly-review",
+        "type": "update",
+        "title": "V3.12.1 更新｜一鍵領取修復與每週回顧",
+        "body": "親愛的旅人：\n\n這幾天的更新整理如下。\n\n【一鍵領取修復】\nV3.10.1 之後，各處的「一鍵領取」（祝福、任務、信箱、收藏、探險）可能因錯誤而無法使用，現已修復。若之前一鍵領取沒有反應，更新後請再試一次；也可以逐項手動領取。你的存檔與已領取的紀錄不受影響。\n\n【每週回顧】\n「更多 → 每週回顧」可查看本週或上週完成了幾項任務、習慣做了幾天與打卡次數。每週一，首頁會出現上週回顧的小卡，打開或關閉後不再顯示。\n\n【長輩模式更簡單】\n長輩模式的新增任務改為單頁：只要填寫要做的事與日期，時間、分類、重要程度與子任務收在「更多設定」。長輩模式也會隱藏召喚、圖鑑、探險等遊戲畫面與獎勵數字，讓介面專注在任務本身；一般模式不受影響。\n\n本信沒有附帶獎勵；先前尚未過期的贈禮仍可依原信期限領取。若遇到問題，歡迎透過「更多 → 意見與問題回報」告訴我們。\n\n若尚未看到新版，請保持連線，關閉其他 QuestNote 分頁與主畫面 App 後重新開啟；看到更新提示時按「更新並重新載入」。請勿清除網站資料，以免失去本機紀錄。\n\nQuestNote 開發團隊",
+        "publishedAt": "2026-10-19T19:57:39.000Z",
+        "expiresAt": null,
+        "priority": "normal",
+        "enabled": true,
+        "minAppVersion": "3.12.1",
+        "maxAppVersion": null,
+        "icon": "📮",
+        "reward": null,
+        "action": {
+          "type": "view",
+          "view": "tasks",
+          "label": "回到任務"
         }
       }
     ]
   },
   "merged": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-10T19:58:15.974Z",
+    "generatedAt": "2026-10-19T19:56:57.669Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -1253,46 +1291,29 @@
           "view": "gacha",
           "label": "查看每日相遇與系列"
         }
+      },
+      {
+        "id": "2026-10-v3121-claim-all-fix-weekly-review",
+        "type": "update",
+        "title": "V3.12.1 更新｜一鍵領取修復與每週回顧",
+        "body": "親愛的旅人：\n\n這幾天的更新整理如下。\n\n【一鍵領取修復】\nV3.10.1 之後，各處的「一鍵領取」（祝福、任務、信箱、收藏、探險）可能因錯誤而無法使用，現已修復。若之前一鍵領取沒有反應，更新後請再試一次；也可以逐項手動領取。你的存檔與已領取的紀錄不受影響。\n\n【每週回顧】\n「更多 → 每週回顧」可查看本週或上週完成了幾項任務、習慣做了幾天與打卡次數。每週一，首頁會出現上週回顧的小卡，打開或關閉後不再顯示。\n\n【長輩模式更簡單】\n長輩模式的新增任務改為單頁：只要填寫要做的事與日期，時間、分類、重要程度與子任務收在「更多設定」。長輩模式也會隱藏召喚、圖鑑、探險等遊戲畫面與獎勵數字，讓介面專注在任務本身；一般模式不受影響。\n\n本信沒有附帶獎勵；先前尚未過期的贈禮仍可依原信期限領取。若遇到問題，歡迎透過「更多 → 意見與問題回報」告訴我們。\n\n若尚未看到新版，請保持連線，關閉其他 QuestNote 分頁與主畫面 App 後重新開啟；看到更新提示時按「更新並重新載入」。請勿清除網站資料，以免失去本機紀錄。\n\nQuestNote 開發團隊",
+        "publishedAt": "2026-10-19T19:57:39.000Z",
+        "expiresAt": null,
+        "priority": "normal",
+        "enabled": true,
+        "minAppVersion": "3.12.1",
+        "maxAppVersion": null,
+        "icon": "📮",
+        "reward": null,
+        "action": {
+          "type": "view",
+          "view": "tasks",
+          "label": "回到任務"
+        }
       }
     ]
   },
-  "pending": [
-    {
-      "deployedCommit": "9ef2b0a85ef393a0c770cabd57d1defaf3d40693",
-      "createdAt": "2026-10-19T10:13:26Z",
-      "success": true,
-      "artifactId": "152911daa7a1e7a73bc280e9fbdfa2ca439638b898e06b48e02ab6b22113bd55",
-      "sourceCommit": "91b0490919cd7baf685c3414d4673575baa078bb"
-    },
-    {
-      "deployedCommit": "23941a474409ca7853babc8e6e345bc7810e7995",
-      "createdAt": "2026-10-19T10:29:43Z",
-      "success": true,
-      "artifactId": "f9e22d924da7df9cb36fe1de3d41af549038cc710f29ce81b161ec8ba2f87f26",
-      "sourceCommit": "5d080a68b55344beb2461f5edad548bb469fc475"
-    },
-    {
-      "deployedCommit": "da905a3b1f8d97b752043350214915172c41a740",
-      "createdAt": "2026-10-19T11:07:09Z",
-      "success": true,
-      "artifactId": "d5651a092b551f4c9be964169ee6687b3e0fbeeb333ed6189bc19497600f3349",
-      "sourceCommit": "ae1b40fbe384779a7f00d39116672fcee261eafb"
-    },
-    {
-      "deployedCommit": "d50b34bc09defef4c98287d3285c9add4d37a957",
-      "createdAt": "2026-10-19T15:09:23Z",
-      "success": true,
-      "artifactId": "a718c535da22ea0b5a640b612727c882d3fe6728868273f50c7adc8449ecc865",
-      "sourceCommit": "bbfc7afe0adee29b273183dc28b1518ca3266ba0"
-    },
-    {
-      "deployedCommit": "ace1957bca5147b033d88a64ae4376abce9c6a24",
-      "createdAt": "2026-10-19T19:51:28Z",
-      "success": true,
-      "artifactId": "1c98d04cae957f683d64772a199bddc44448910c1cc801b0d65456926714d7cb",
-      "sourceCommit": "906cdde7ad83a4853090d0f348b2cdbd6d5b49f7"
-    }
-  ],
+  "pending": [],
   "reports": [
     {
       "cursor": 2,
@@ -1335,6 +1356,5 @@
     }
   ],
   "newReports": [],
-  "incompleteDecisions": [],
-  "sourceDiff": "906cdde Merge pull request #112 from leotsouo/dev\n8a0f036 V3.12.1: fix the one-click reward claim that failed since the ui.js split\n4c18843 Record the V3.12.0 (PR #111) production release in final-integration.md\nafd2fe2 Record each release by its PR so a tools-only release is not skipped\nbbfc7af Merge pull request #111 from leotsouo/dev\nd66b3a7 Version the review page script so a redeploy is not hidden by the browser cache\nc6b0adc Warn when an old Service Worker serves the animation review page\neb72a89 Remove the one-off per-pool authoring and review scripts\n59ad9c1 Split the card-pool SOP into a one-page runbook and a spec\n9e4b122 Show the release artifact and theme on the animation review page\naa1b57f Add a generic card-pool animation review page and card-pool review-page\n2a5a261 Add generic card-pool author, Codex image handoff and approve-all commands\nbb840c9 Record the V3.12.0 production release in final-integration.md\nae1b40f Merge pull request #110 from leotsouo/dev\n1604d6b V3.12.0: one-page add task and a hidden game layer in senior mode\n06ff12d Fix the flaky unknown-commit case in the release wrap-up test\nb75d9d6 Record the V3.11.0 production release in final-integration.md\n5d080a6 Merge pull request #109 from leotsouo/dev\ne890343 V3.11.0: add the weekly review page and the Monday home card\n64dd537 Add the weekly review service\ndafdd71 Record the V3.10.3 production release in final-integration.md\n91b0490 Merge pull request #108 from leotsouo/dev\ne44e3b5 Make the production release resumable and wrap itself up\nf7226fb Add release wrap-up helpers and tests\nd5fd498 Require dev to be pushed before updating the preview site\n3b5f325 Make the App health check pass on release builds for the right reasons\n0b5f2ac V3.10.3: run the App health check from Settings in preview and source builds\ne9001dd Update the App health check's stale expectations to the current code\n09b16ea Run the three companion tests in npm test and update their stale counts\ne082d81 Record the V3.10.2 production release in final-integration.md\n"
+  "incompleteDecisions": []
 }
