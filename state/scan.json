@@ -1,14 +1,19 @@
 {
-  "checkedAt": "2026-10-20T18:04:21.799Z",
+  "checkedAt": "2026-10-20T19:55:43.231Z",
   "release": {
-    "deployedCommit": "83372fd593ff6f6d56430ac06f3720c3c045a3a3",
+    "deployedCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
     "artifactId": "bddcdf4aa68390adca92dda20d1ffcdfd231c3081cb0b462f61a38febf97d60e",
     "sourceCommit": "2f07bced8497c69d9fc148a49559b81277ccd294",
     "version": "3.12.2"
   },
-  "pagesCommit": "83372fd593ff6f6d56430ac06f3720c3c045a3a3",
-  "mainCommit": "2f07bced8497c69d9fc148a49559b81277ccd294",
+  "pagesCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
+  "mainCommit": "12cf8180ca747ed33175e4bc87755392e36657af",
   "deployments": [
+    {
+      "deployedCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
+      "createdAt": "2026-10-20T18:06:05Z",
+      "success": true
+    },
     {
       "deployedCommit": "83372fd593ff6f6d56430ac06f3720c3c045a3a3",
       "createdAt": "2026-10-20T17:53:28Z",
@@ -103,16 +108,11 @@
       "deployedCommit": "43ca5ca1099ed9e5d306e52c92d7f4911aa8d329",
       "createdAt": "2026-10-09T18:38:34Z",
       "success": true
-    },
-    {
-      "deployedCommit": "fd3a084b2132d8e305c6561d1f2c171554021604",
-      "createdAt": "2026-10-09T16:24:47Z",
-      "success": true
     }
   ],
   "source": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-20T03:29:27.888Z",
+    "generatedAt": "2026-10-20T18:04:21.799Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -523,6 +523,24 @@
         "icon": "🎁",
         "reward": {
           "stardust": 1500,
+          "adventureEnergy": 5
+        },
+        "action": null
+      },
+      {
+        "id": "2026-10-v3122-second-report-compensation-01",
+        "type": "compensation",
+        "title": "再次回報補償｜星塵 1,000＋冒險能量 5",
+        "body": "親愛的旅人：\n\n上次更新後，仍有旅人遇到「一鍵領取」跳出錯誤，讓你又回報了一次，非常抱歉。\n\nV3.12.2 這次把整個 App 檢查了一遍：修正確認視窗連點會重複執行的問題，並在「更多 → 設定」加上「最近錯誤」紀錄，之後回報問題會更容易找到原因。\n\n如果還看到舊版本，請關閉所有 QuestNote 視窗後重新開啟，就會更新。\n\n請收下這份補償：星塵 1,000（剛好一次十連）與冒險能量 5。",
+        "publishedAt": "2026-10-21T12:00:00+08:00",
+        "expiresAt": "2026-11-30T23:59:59+08:00",
+        "priority": "high",
+        "enabled": true,
+        "minAppVersion": "3.12.2",
+        "maxAppVersion": null,
+        "icon": "🎁",
+        "reward": {
+          "stardust": 1000,
           "adventureEnergy": 5
         },
         "action": null
@@ -531,7 +549,7 @@
   },
   "production": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-20T03:29:27.888Z",
+    "generatedAt": "2026-10-20T18:04:21.799Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -942,6 +960,24 @@
         "icon": "🎁",
         "reward": {
           "stardust": 1500,
+          "adventureEnergy": 5
+        },
+        "action": null
+      },
+      {
+        "id": "2026-10-v3122-second-report-compensation-01",
+        "type": "compensation",
+        "title": "再次回報補償｜星塵 1,000＋冒險能量 5",
+        "body": "親愛的旅人：\n\n上次更新後，仍有旅人遇到「一鍵領取」跳出錯誤，讓你又回報了一次，非常抱歉。\n\nV3.12.2 這次把整個 App 檢查了一遍：修正確認視窗連點會重複執行的問題，並在「更多 → 設定」加上「最近錯誤」紀錄，之後回報問題會更容易找到原因。\n\n如果還看到舊版本，請關閉所有 QuestNote 視窗後重新開啟，就會更新。\n\n請收下這份補償：星塵 1,000（剛好一次十連）與冒險能量 5。",
+        "publishedAt": "2026-10-21T12:00:00+08:00",
+        "expiresAt": "2026-11-30T23:59:59+08:00",
+        "priority": "high",
+        "enabled": true,
+        "minAppVersion": "3.12.2",
+        "maxAppVersion": null,
+        "icon": "🎁",
+        "reward": {
+          "stardust": 1000,
           "adventureEnergy": 5
         },
         "action": null
@@ -950,7 +986,7 @@
   },
   "merged": {
     "schemaVersion": 1,
-    "generatedAt": "2026-10-20T03:29:27.888Z",
+    "generatedAt": "2026-10-20T18:04:21.799Z",
     "messages": [
       {
         "id": "2026-10-v362-encounter-fragments-gift-01",
@@ -1364,60 +1400,69 @@
           "adventureEnergy": 5
         },
         "action": null
+      },
+      {
+        "id": "2026-10-v3122-second-report-compensation-01",
+        "type": "compensation",
+        "title": "再次回報補償｜星塵 1,000＋冒險能量 5",
+        "body": "親愛的旅人：\n\n上次更新後，仍有旅人遇到「一鍵領取」跳出錯誤，讓你又回報了一次，非常抱歉。\n\nV3.12.2 這次把整個 App 檢查了一遍：修正確認視窗連點會重複執行的問題，並在「更多 → 設定」加上「最近錯誤」紀錄，之後回報問題會更容易找到原因。\n\n如果還看到舊版本，請關閉所有 QuestNote 視窗後重新開啟，就會更新。\n\n請收下這份補償：星塵 1,000（剛好一次十連）與冒險能量 5。",
+        "publishedAt": "2026-10-21T12:00:00+08:00",
+        "expiresAt": "2026-11-30T23:59:59+08:00",
+        "priority": "high",
+        "enabled": true,
+        "minAppVersion": "3.12.2",
+        "maxAppVersion": null,
+        "icon": "🎁",
+        "reward": {
+          "stardust": 1000,
+          "adventureEnergy": 5
+        },
+        "action": null
       }
     ]
   },
-  "pending": [
-    {
-      "deployedCommit": "83372fd593ff6f6d56430ac06f3720c3c045a3a3",
-      "createdAt": "2026-10-20T17:53:28Z",
-      "success": true,
-      "artifactId": "bddcdf4aa68390adca92dda20d1ffcdfd231c3081cb0b462f61a38febf97d60e",
-      "sourceCommit": "2f07bced8497c69d9fc148a49559b81277ccd294"
-    }
-  ],
+  "pending": [],
   "reports": [
     {
+      "steps": "",
+      "expected": "",
+      "status": "new",
+      "resolution_note": "",
       "cursor": 2,
       "id": "109b0dfb-1283-49cc-8c11-4f7feecdfacd",
       "submitted_at": "2026-09-26T21:04:03.728Z",
       "type": "bug",
       "title": "測試回報",
       "description": "測試回報功能",
-      "steps": "",
-      "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"cacheName\":\"questnote-production-app-fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"releaseProfile\":\"production\",\"artifactId\":\"fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
-      "status": "new",
-      "resolution_note": ""
+      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"cacheName\":\"questnote-production-app-fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"releaseProfile\":\"production\",\"artifactId\":\"fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
     },
     {
+      "steps": "",
+      "expected": "",
+      "status": "new",
+      "resolution_note": "",
       "cursor": 9,
       "id": "a3b93f57-d7a6-41f9-a704-39f9803d80dc",
       "submitted_at": "2026-10-05T00:48:36.558Z",
       "type": "suggestion",
       "title": "圖鑑依照卡片等級分類",
       "description": "以前有卡片等級分類 我想看UR點一下就全部都是UR 的搜尋結果\n我想要把這個功能拿回來\n現在的介面很好 但是可以幫我把這個功能做回來嗎",
-      "steps": "",
-      "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"cacheName\":\"questnote-production-app-8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"releaseProfile\":\"production\",\"artifactId\":\"8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
-      "status": "new",
-      "resolution_note": ""
+      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"cacheName\":\"questnote-production-app-8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"releaseProfile\":\"production\",\"artifactId\":\"8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
     },
     {
+      "steps": "",
+      "expected": "",
+      "status": "new",
+      "resolution_note": "",
       "cursor": 10,
       "id": "c96bc943-312a-4fc3-a1fc-dfe9d7126352",
       "submitted_at": "2026-10-11T02:14:57.022Z",
       "type": "bug",
       "title": "首頁新增任務的按鈕跟「新增任務」的字樣破圖",
       "description": "新增按鈕的字超出他的按鈕大小",
-      "steps": "",
-      "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"cacheName\":\"questnote-production-app-4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"releaseProfile\":\"production\",\"artifactId\":\"4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
-      "status": "new",
-      "resolution_note": ""
+      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"cacheName\":\"questnote-production-app-4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"releaseProfile\":\"production\",\"artifactId\":\"4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
     }
   ],
   "newReports": [],
-  "incompleteDecisions": [],
-  "sourceDiff": "2f07bce Merge pull request #113 from leotsouo/dev\na2877d3 Merge remote-tracking branch 'origin/main' into dev\n787d5ee Add the feature/update checklist to CLAUDE.md and the 2026-10-20 audit report\n596860b Add lint, syntax check, one-click npm run check and matching CI steps\n56b3f23 V3.12.2: keep the last uncaught errors for the settings card and feedback report\n8091b41 Confirm dialog: run the confirmed action once on a double tap\n3270e9b Health check: scan whole function bodies instead of fixed character windows\n2aea356 chore(mailbox): publish 20261020-v3121-claim-all-compensation\nec191aa chore(mailbox): publish 20261020-v3121-claim-all-fix-weekly-review\n24f4e90 Record the V3.12.1 production release in final-integration.md\n"
+  "incompleteDecisions": []
 }
