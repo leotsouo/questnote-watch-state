@@ -1,0 +1,29 @@
+{
+  "eventId": "20261020-v3121-claim-all-compensation",
+  "reason": "V3.10.1（10/15）到 V3.12.1（10/20）約 5 天，所有一鍵領取（祝福、信箱、收藏、探險）出現錯誤無法使用；V3.12.1 已修正，更新信已發但沒有附獎勵。使用者明確要求補償並指定數量。",
+  "authorization": {
+    "phrase": "請觸發巡查補發補償：星塵 1500、冒險能量 5，minAppVersion 3.12.1",
+    "grantedBy": "leo（本機 Claude Code 依使用者原話轉寫）",
+    "requestedAt": "2026-10-20T03:20:00Z"
+  },
+  "messages": [
+    {
+      "id": "2026-10-v3121-claim-all-compensation-01",
+      "type": "compensation",
+      "title": "一鍵領取異常補償｜星塵 1,500＋冒險能量 5",
+      "body": "親愛的旅人：\n\n10 月 15 日起的幾天裡，「一鍵領取」會跳出錯誤而無法領取祝福、信箱、收藏與探險獎勵，造成不便，非常抱歉。\n\nV3.12.1 已修正這個問題。先前還沒領到的獎勵都還在，現在可以一次領完。\n\n請收下這份補償：星塵 1,500 與冒險能量 5。",
+      "publishedAt": "2026-10-20T11:30:00+08:00",
+      "expiresAt": "2026-11-20T23:59:59+08:00",
+      "priority": "high",
+      "enabled": true,
+      "minAppVersion": "3.12.1",
+      "maxAppVersion": null,
+      "icon": "🎁",
+      "reward": {
+        "stardust": 1500,
+        "adventureEnergy": 5
+      },
+      "action": null
+    }
+  ]
+}
