@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T19:55:43.231Z",
+  "checkedAt": "2026-10-21T19:55:58.636Z",
   "release": {
     "deployedCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
     "artifactId": "bddcdf4aa68390adca92dda20d1ffcdfd231c3081cb0b462f61a38febf97d60e",
@@ -1424,43 +1424,43 @@
   "pending": [],
   "reports": [
     {
-      "steps": "",
-      "expected": "",
-      "status": "new",
-      "resolution_note": "",
       "cursor": 2,
       "id": "109b0dfb-1283-49cc-8c11-4f7feecdfacd",
       "submitted_at": "2026-09-26T21:04:03.728Z",
       "type": "bug",
       "title": "測試回報",
       "description": "測試回報功能",
-      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"cacheName\":\"questnote-production-app-fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"releaseProfile\":\"production\",\"artifactId\":\"fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
-    },
-    {
       "steps": "",
       "expected": "",
+      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"cacheName\":\"questnote-production-app-fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"releaseProfile\":\"production\",\"artifactId\":\"fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
       "status": "new",
-      "resolution_note": "",
+      "resolution_note": ""
+    },
+    {
       "cursor": 9,
       "id": "a3b93f57-d7a6-41f9-a704-39f9803d80dc",
       "submitted_at": "2026-10-05T00:48:36.558Z",
       "type": "suggestion",
       "title": "圖鑑依照卡片等級分類",
       "description": "以前有卡片等級分類 我想看UR點一下就全部都是UR 的搜尋結果\n我想要把這個功能拿回來\n現在的介面很好 但是可以幫我把這個功能做回來嗎",
-      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"cacheName\":\"questnote-production-app-8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"releaseProfile\":\"production\",\"artifactId\":\"8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
-    },
-    {
       "steps": "",
       "expected": "",
+      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"cacheName\":\"questnote-production-app-8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"releaseProfile\":\"production\",\"artifactId\":\"8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
       "status": "new",
-      "resolution_note": "",
+      "resolution_note": ""
+    },
+    {
       "cursor": 10,
       "id": "c96bc943-312a-4fc3-a1fc-dfe9d7126352",
       "submitted_at": "2026-10-11T02:14:57.022Z",
       "type": "bug",
       "title": "首頁新增任務的按鈕跟「新增任務」的字樣破圖",
       "description": "新增按鈕的字超出他的按鈕大小",
-      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"cacheName\":\"questnote-production-app-4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"releaseProfile\":\"production\",\"artifactId\":\"4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}"
+      "steps": "",
+      "expected": "",
+      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"cacheName\":\"questnote-production-app-4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"releaseProfile\":\"production\",\"artifactId\":\"4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
+      "status": "new",
+      "resolution_note": ""
     }
   ],
   "newReports": [],
