@@ -1,14 +1,19 @@
 {
-  "checkedAt": "2026-10-24T19:56:09.052Z",
+  "checkedAt": "2026-10-25T19:56:01.026Z",
   "release": {
-    "deployedCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
-    "artifactId": "bddcdf4aa68390adca92dda20d1ffcdfd231c3081cb0b462f61a38febf97d60e",
-    "sourceCommit": "2f07bced8497c69d9fc148a49559b81277ccd294",
-    "version": "3.12.2"
+    "deployedCommit": "73ae4120748d1c9ace0a88c14722654374c8ea71",
+    "artifactId": "b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172",
+    "sourceCommit": "3a440e8e77a9c6d8a812b8c47bbdf4e02a6fbdc6",
+    "version": "3.13.1"
   },
-  "pagesCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
-  "mainCommit": "12cf8180ca747ed33175e4bc87755392e36657af",
+  "pagesCommit": "73ae4120748d1c9ace0a88c14722654374c8ea71",
+  "mainCommit": "3a440e8e77a9c6d8a812b8c47bbdf4e02a6fbdc6",
   "deployments": [
+    {
+      "deployedCommit": "73ae4120748d1c9ace0a88c14722654374c8ea71",
+      "createdAt": "2026-10-25T12:00:10Z",
+      "success": true
+    },
     {
       "deployedCommit": "e0d95ec10c2a94a57a0c230d5d4151097780e05f",
       "createdAt": "2026-10-20T18:06:05Z",
@@ -102,11 +107,6 @@
     {
       "deployedCommit": "c8ef5ab07d3a2de35078444e663338883662ace0",
       "createdAt": "2026-10-09T19:43:38Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "43ca5ca1099ed9e5d306e52c92d7f4911aa8d329",
-      "createdAt": "2026-10-09T18:38:34Z",
       "success": true
     }
   ],
@@ -1421,7 +1421,15 @@
       }
     ]
   },
-  "pending": [],
+  "pending": [
+    {
+      "deployedCommit": "73ae4120748d1c9ace0a88c14722654374c8ea71",
+      "createdAt": "2026-10-25T12:00:10Z",
+      "success": true,
+      "artifactId": "b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172",
+      "sourceCommit": "3a440e8e77a9c6d8a812b8c47bbdf4e02a6fbdc6"
+    }
+  ],
   "reports": [
     {
       "cursor": 2,
@@ -1432,7 +1440,7 @@
       "description": "測試回報功能",
       "steps": "",
       "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"releaseProfile\":\"production\",\"userAgent\":\"iPhone\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
+      "diagnostics_json": "{\"appVersion\":\"3.4.15\",\"buildTime\":\"2026-09-26T18:44:46.546Z\",\"cacheName\":\"questnote-production-app-fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"releaseProfile\":\"production\",\"artifactId\":\"fb10929a204ec94c11ad380c1af9e8170ea2dc5f8ba85174221b75ef85fa4084\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
       "status": "new",
       "resolution_note": ""
     },
@@ -1445,7 +1453,7 @@
       "description": "以前有卡片等級分類 我想看UR點一下就全部都是UR 的搜尋結果\n我想要把這個功能拿回來\n現在的介面很好 但是可以幫我把這個功能做回來嗎",
       "steps": "",
       "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"releaseProfile\":\"production\",\"userAgent\":\"iPhone\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
+      "diagnostics_json": "{\"appVersion\":\"3.8.0\",\"buildTime\":\"2026-10-04T12:30:35.386Z\",\"cacheName\":\"questnote-production-app-8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"releaseProfile\":\"production\",\"artifactId\":\"8502e35740918ec4897d6d3646ae3303c689e129283e542c3ed66369a3ad0a96\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 932\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
       "status": "new",
       "resolution_note": ""
     },
@@ -1458,11 +1466,12 @@
       "description": "新增按鈕的字超出他的按鈕大小",
       "steps": "",
       "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"releaseProfile\":\"production\",\"userAgent\":\"iPhone\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
+      "diagnostics_json": "{\"appVersion\":\"3.9.10\",\"buildTime\":\"2026-10-09T20:40:34.257Z\",\"cacheName\":\"questnote-production-app-4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"releaseProfile\":\"production\",\"artifactId\":\"4b81cf66353c89177b5e9ba17eeaf2ab72795a20036763471166ef61d7c10671\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5.2 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"430 × 637\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
       "status": "new",
       "resolution_note": ""
     }
   ],
   "newReports": [],
-  "incompleteDecisions": []
+  "incompleteDecisions": [],
+  "sourceDiff": "3a440e8 Merge pull request #114 from leotsouo/dev\n55fb757 Merge remote-tracking branch 'origin/main' into dev\n7a7eee9 V3.13.1: Add a separate switch to turn on the icon badge\n31b06f5 V3.13.0: Show unfinished to-do count as the Home Screen icon badge\n3a41400 Add the to-do list widget requirement to the native app assessment\nab2001f Add the PWA to native iOS app feasibility assessment\n5739733 Record the iPhone check results in the quick voice entry assessment\nc532cee Add the iOS quick voice entry feasibility assessment\n12cf818 chore(mailbox): publish 20261021-v3122-second-report-compensation\n3320325 Record the V3.12.2 production release in final-integration.md\n"
 }
