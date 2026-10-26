@@ -1,0 +1,23 @@
+{
+  "reviews": [
+    {
+      "id": "1770f78c-552c-4d03-a943-8dc8b9ac7acc",
+      "category": "bug",
+      "severity": "low",
+      "summary": "V3.13.1 工坊材料「來源」同時顯示原始區域 ID 與區域名稱。原始碼可確認：getMaterialSourceLabel 把 material.sourceArea（內部 ID，如 aurora_feast_garden）與 expeditionAreas 的 name（霓霞膳庭）一起 join，未把 ID 轉成顯示名稱，重複來源會呈現「ID、名稱」。僅為顯示問題，不影響材料取得或存檔。",
+      "recommendation": "getMaterialSourceLabel 先把 sourceArea 以 areas 對照成 name（找不到再略過或 fallback），再與 rewards 來源去重；補 source-level 測試涵蓋新卡池區域。不需補償，不改 D1。",
+      "evidence": [
+        "origin/main:src/workshopService.js getMaterialSourceLabel",
+        "origin/main:src/ui/workshopView.js 材料卡與合成卡來源欄",
+        "origin/main:content/pet-series/aurora_fairy_feast/ecosystem.json sourceArea=aurora_feast_garden"
+      ]
+    },
+    {
+      "id": "7a33cd2a-5818-4fff-9dd8-214ed0717b91",
+      "category": "suggestion",
+      "severity": "low",
+      "summary": "V3.13.1 使用者希望工坊零食顯示「有幾位夥伴喜歡」時能看到是哪些夥伴。屬功能建議，非故障；尚未檢查現有 UI 是否已有入口。",
+      "recommendation": "納入下次工坊 UI 改善：零食詳情列出偏好此食物的夥伴（僅已擁有者或全圖鑑，需先決定是否劇透未擁有角色）。不需公告或補償，不改 D1。"
+    }
+  ]
+}
