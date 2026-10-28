@@ -1,14 +1,19 @@
 {
-  "checkedAt": "2026-10-26T19:57:55.073Z",
+  "checkedAt": "2026-10-28T19:57:53.867Z",
   "release": {
-    "deployedCommit": "0bb88d2447a6b0e986d34fa14ac5e86d3b02cc09",
-    "artifactId": "b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172",
-    "sourceCommit": "3a440e8e77a9c6d8a812b8c47bbdf4e02a6fbdc6",
-    "version": "3.13.1"
+    "deployedCommit": "35a9a73e57cfd475e1baa8aaf607ecda6cb07040",
+    "artifactId": "4a557e601dbc3e9b8d657e3c7b5f82defdfae4253791653e597407157a9fe161",
+    "sourceCommit": "4f53ee55293d626fed6f93f5c15b9518c4515a32",
+    "version": "3.15.0"
   },
-  "pagesCommit": "0bb88d2447a6b0e986d34fa14ac5e86d3b02cc09",
-  "mainCommit": "181f4eae5ed7786281fc6805ca90b88fdee47333",
+  "pagesCommit": "35a9a73e57cfd475e1baa8aaf607ecda6cb07040",
+  "mainCommit": "4f53ee55293d626fed6f93f5c15b9518c4515a32",
   "deployments": [
+    {
+      "deployedCommit": "35a9a73e57cfd475e1baa8aaf607ecda6cb07040",
+      "createdAt": "2026-10-28T18:48:37Z",
+      "success": true
+    },
     {
       "deployedCommit": "0bb88d2447a6b0e986d34fa14ac5e86d3b02cc09",
       "createdAt": "2026-10-25T19:57:32Z",
@@ -102,11 +107,6 @@
     {
       "deployedCommit": "dc9f9b815ce17e5e420f0d760e272d473da8896d",
       "createdAt": "2026-10-09T20:08:01Z",
-      "success": true
-    },
-    {
-      "deployedCommit": "2724442d430587c70bc993cf2cfaa2e2025487c2",
-      "createdAt": "2026-10-09T20:03:07Z",
       "success": true
     }
   ],
@@ -1546,33 +1546,6 @@
       "resolution_note": ""
     }
   ],
-  "newReports": [
-    {
-      "cursor": 11,
-      "id": "1770f78c-552c-4d03-a943-8dc8b9ac7acc",
-      "submitted_at": "2026-10-26T02:21:05.235Z",
-      "type": "bug",
-      "title": "工坊的材料來源有bug",
-      "description": "來源：aurora_feast_garden、霓霞膳庭",
-      "steps": "",
-      "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.13.1\",\"buildTime\":\"2026-10-20T00:00:00.000Z\",\"cacheName\":\"questnote-production-app-b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172\",\"releaseProfile\":\"production\",\"artifactId\":\"b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"393 × 852\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
-      "status": "new",
-      "resolution_note": ""
-    },
-    {
-      "cursor": 12,
-      "id": "7a33cd2a-5818-4fff-9dd8-214ed0717b91",
-      "submitted_at": "2026-10-26T02:22:23.365Z",
-      "type": "suggestion",
-      "title": "工坊零食喜好",
-      "description": "有幾位夥伴喜歡他 但是還不能看到是誰喜歡！",
-      "steps": "",
-      "expected": "",
-      "diagnostics_json": "{\"appVersion\":\"3.13.1\",\"buildTime\":\"2026-10-20T00:00:00.000Z\",\"cacheName\":\"questnote-production-app-b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172\",\"releaseProfile\":\"production\",\"artifactId\":\"b856a6e2e3ef82d09e5c4d2b0740c9ac3e236a75c93826d38220f85cd6fe8172\",\"userAgent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1\",\"language\":\"zh-TW\",\"viewport\":\"393 × 852\",\"online\":true,\"displayMode\":\"standalone\",\"serviceWorkerControlled\":true}",
-      "status": "new",
-      "resolution_note": ""
-    }
-  ],
+  "newReports": [],
   "incompleteDecisions": []
 }
