@@ -13,3 +13,4 @@
 2026-10-20T18:06:35.380Z Pages deployment is pending or does not match gh-pages
 2026-10-25T19:58:01.933Z Pages deployment is pending or does not match gh-pages
 2026-11-12T19:54:28.000Z Cloudflare 連接器未授權（需重新驗證），無法唯讀查詢 D1 questnote-feedback；未執行 scan
+2026-11-13T19:54:02.000Z Cloudflare 連接器仍未授權（連續第 2 天，需重新驗證），無法唯讀查詢 D1 questnote-feedback；未執行 scan
